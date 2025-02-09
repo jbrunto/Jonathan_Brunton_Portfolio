@@ -178,6 +178,10 @@ A series of sprint-esque, multi-week projects in which 4-7 inter-academic course
 - Interdisplinarian scientific programmer, degreed or employed in each of the fields earth, atmospheric, and planetary sciences.
 - 8+ years experience in internet and community-forum browsing for advanced computational and environmental problem solving. 7+ years experience in leveraging Google Scholar to further research.
 - Passion for strengthening team interpersonal development and morale
+- Basic German language skills and actively learning American Sign Language
+
+
+Environmental advocate, park enthusiast, aging amateur athlete, hiker, fisher, birder, Durham music-goer, and community servant.
 
 
 
