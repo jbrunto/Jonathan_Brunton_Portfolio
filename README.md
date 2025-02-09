@@ -40,7 +40,8 @@ Imperial College London / London, England
 *Notable Awards:* Merit Graduate
 
 **Course Details:** [MSc EDSML](https://www.imperial.ac.uk/study/courses/postgraduate-taught/environmental-data-science-machine-learning/)
---------------------------------------------------------------------------------------------
+
+
 
 August 2017-May 2021
 
@@ -61,13 +62,71 @@ Purdue University / West Lafayette, IN
 - Combining and using the predicted volume with velocity data to create a 3D visualization tool and assess predicted fault's ability to store fluid.
 
 ### Machine Learning Model Development
-Initial steps were taken to clean and transform raw seimic reflectivity image data into a numerically derived coherency volume using 3D interpretation. 2D, 'stackable' images of these transformations were sent to be trained on a K-Means clustering model, which was developed to highlight large, 3D discontinuities within the volume. Only data with viable intra-cluster intertia values were selected for the final predicted fault locations. This process is shown below, left-to-right
+Initial steps were taken to clean and transform raw seimic reflectivity image data into a numerically derived coherency volume using 3D interpretation. 2D, 'stackable' images of these transformations were sent to be trained on a K-Means clustering model, which was developed to highlight large, 3D discontinuities within the volume. Only data with viable intra-cluster intertia values were selected for the final predicted fault locations. This process is shown below, left-to-right.
+
+![Figure 1](./images/2D_Transformations.png)
+
+The clustering model was optimized using a numerical interpretation of the 'Elbow Method', with both average sum of squared distances (SSD) and explained variance as evaluation metrics. Shown below is the numerical interpretation that found the optimal number of image clusters for segmentation in this study, with SSD as an evaluator. Additionally, another elbow graph, with SSD as an evaluator, shows that the fitted trends of the training and testing sets is nearly identical, validating the results of the model from model bias or overfitting.
+
+![Figure 2](./images/Elbow_Numerical.png)
+![Figure 3](./images/Elbow_Verification.png)
+
+### Screening Tool (Proposed Workflow)
+As briefly aforementioned, this is a novel approach in combining the information from a predicted fault volume with FWI velocity data into a single, interpretable volume. This provides an initial assessment to whether an extracted fault system can store fluid, by highlighting low- or high-velocity anomalies within the image of the system. The relative velocities of some predicted fault locations are shown in the colored image below, while the coherency volume it was derived from is shown in greyscale.
+
+![Figure 4](./images/Big_Slice_Colored.png)
+![Figure 5](./images/Big_Slice_Greyscale.png)
+
+A major advantage of using a binary mask for predicted fault locations is uncovering the relative velocities from both within and outside of the faults, shown below on left. In addition to the data preprocessing, model training, and prediction workflow contained inside a jupyter notebook, a 3D visualization of the volume's predicted faults/velocities was developed for completing the automation of the manual interpretation of these seismic volumes.
+
+![Figure 6](./images/Screening_Tool.png)
 
 
+*A brief note on results*
+
+If afforded more time, there would have been a few avenues to strengthen the power of this screening tool, including:
+- An investigation into what other seismic features (numerical interpretations of the raw reflectivity volume) may reveal in their ability to better distinguish faults from the surrounding region and other 3D seismic discontinuities.
+- Developing a supervised image segmentation model using labeled faults.
+- Optimizing model performance with updated programming methods and migrating model training to high-performance computing environment.
+- Developing an ecosystem to host a web-version of the 3D, interactive screening tool with better visualization libraries.
+
+**[Github Repo (DEAD) - Capstone Project](https://github.com/jbrunto/Seismic_Machine_Learning)**
 
 
 <a id=Projects></a>
 ## III. Major Master's Projects
+A series of sprint-esque, multi-week projects in which 4-7 inter-academic course graduate co-developers develop machine learning applications of environmental datasets, culminating in the 'product release' and presentation to hypothetical clients and interest groups.
+
+### Hurricane Forecasting with Computer Vision
+*Motivation:* Given a set of satellite images of a hurricane, predict the hurricane's evolution.
+
+*Proposed Solution:* A convolution LSTM and GAN-LSTM were separately trained and tested, both constructed in PyTorch. The former achieved better results in both image prediction (according to a customly developed evaluation metric specific to image pixel similarity) and computational cost. Some results are shown below
+
+![Figure 7](./images/Hurrican_Preds.png)
+
+*Project Roles:* Lead developer of image preprocessing workflow, co-developer of convolutional LSTM workflow (architecture optimzation), documentation and code sustainability maintainer, lead presenter.
+
+
+### Wildfire Forecasting and Correction
+*Motivation:* Using time series of satellite imagery coupled with ground sensor data, develop a neural network to predict the evolution of the wildfire in simulated 'real-time'.
+
+*Proposed Solution:* Principal Components Analysis (PCA) addressed issues of compressing and coupling the data, while an ensemble convolutional autoencoder-random forest regressor predicted wildfire image evolution in physical space. A Kalman filter was developed for the latent space of the autoencoder, correcting predictions in real-time. The images below show a comparison of the wildfire sensor ground truths and model predictions.
+
+![Figure 8](./images/Wildfire_GTs.png)
+![Figure 9](.images/Wildfire_Preds.png)
+
+*Project Roles:* Lead PCA developer, co-developer of data assimilation workflow (filter tuning), Python project suite testing, lead presenter
+
+### Flood evolution and cost-of-damage prediction
+*Motivation:* Given historical flood data, local rainwater data, and property value estimates, classify the flood probability and predict cost of damages for every postcode in England.
+
+*Proposed Solution:* Given the limited amount of data, leverage scientific principles to create new data features from the existing set. The cleaned, manipulated, and integrated dataset is sent to a multi-class model for flood probability. Each of the ten classes outputted by the model is the last input needed for a K-Nearest Neighbors regressor that predicts the corresponding damage cost. Screenshots of results from the classification model are shown in color, with damage cost in greyscale.
+
+![Figure 10](./images/Floods_Colored.png)
+![Figure 11](./images/Floods_Greyscale.png)
+
+*Project Roles:* Lead developer of KNN regressor, lead data preprocessing developer, dataset feature creation, documentation and code sustainability maintainer, lead presenter
+
 <a id=Skills></a>
 ## IV. Skills in Data and Geoscience
 <a id=References></a>
