@@ -1,0 +1,95 @@
+# A brief introduction to myself.
+
+## Professional Experience
+October 2023-Present
+
+**Atmospheric Data Scientist**
+
+Model Evaluation/Outreach with the Community Multiscale Air Quality Model (CMAQ) Model Development Team
+
+Environmental Protection Agency & Oak Ridge Associated Universities (National Student Services Contract)
+
+### Part-time Experiences
+-**Substitute Teacher**, Scoot Education
+  -Austin, TX / Nov. 2022 - April 2023
+-**Python Tutor**, Self-Employed
+  -Metamora, IL / April 2023 - October 2023
+-**Undergradate Research Assistant**, Purdue University Department of Earth, Atmospheric, and Planetary Sciences
+  -West Lafayette, IN / May-Dec. 2019, May 2020-2021
+-**Undergraduate Teaching Assistant**, Purdue University Department of Earth, Atmospheric, and Planetary Sciences
+  -West Lafayette, IN / Aug.-Dec. 2020 / *EAPS 102: Earth Science for Elementary Teachers*
+
+## Education
+October 2021-November 2022
+
+**MSc Environmental Data Science & Machine Learning**
+
+Imperial College London / London, England
+
+*Notable Awards:* Merit Graduate
+
+**Course Details:** [MSc EDSML](https://www.imperial.ac.uk/study/courses/postgraduate-taught/environmental-data-science-machine-learning/)
+
+*Extracurricular Activities:* Imperial College Union, Player/Coach for American Football Club
+
+August 2017-May 2021
+
+**BS Planetary Sciences**
+
+Purdue University / West Lafayette, IN
+
+*Notable Awards:* Presidential Scholarship, Paul & Linda Krishna Scholarship in Earth, Atmospheric, and Planetary Sciences, 6x Dean's List Placement, 6x Semester's Honors
+
+**Course Details:** [BS Planetary Sciences](https://www.eaps.purdue.edu/for_students/undergraduate/planetary/index.html)
+
+*Extracurricular Activities:* College of Science Ambassador, Gimlet Leadership Honorary (Secretary), Planetary Science Society of Purdue, Purdue Astronomy Club, Wesley Foundation Service
+
+## Skills in Data and Geoscience
+
+### Programming Languages
+- Python:
+  - **Expert** Numerical processing and applications, data visualization libraries
+     - Numpy, Pandas, Scipy, Matplotlib (Pyplot), Plotly, Seaborn
+  - **Fluent** Sci-Kit Learn; basic-to-intermediate machine learning applications
+  - **Advanced** Deep-learning libraries
+     - Pytorch, Keras (Tensorflow), OpenCV
+  - **Advanced** Sphinx, Sphinx-Design; for automated HTML deployment of repository code and text (markdown, restructured-text) documentation
+  - **Advanced** PyTest, for automated and customized code testing
+  - **Experienced** Specialized libraries for the environmental data manipulation
+     - Geopandas, Xarray, NetCDF4, Segyio, GDAL, Shapely, Rasterio
+- **Familiar** Trained academically, practiced in research/employment occasionally
+  - R (RStudio), C++
+- **Experienced/Practicing**
+  - SQL, primarily through Python's interfacing library mySQL
+
+### Programming Environments
+- Github (**Experienced**):
+  - git, Github CLI
+  - Github Actions for basic continuous integration practices and automated documentation creation
+  - Github Pages for hosting documentation websites directly from repository
+  - Contributor to the [Community Multiscale Air Quality (CMAQ) model repository](https://github.com/USEPA/CMAQ), familiar with integration and repository maintaining best-practices.
+- Jupyter Lab preferred for Python and general software development, familiar with VisualStudio
+- Proficient with command-line programming and shell scripting, and ensuring sustainability across operating systems
+  - MacOS, Windows, Linux; Bash, C-Shell
+- Comfortable in virtual and High-Performance Computing environments
+  - Most experienced in private, familiar with AWS ecosystem
+
+### Remote Sensing
+- General Software/Geographic Information Systems (GIS) Experience
+  - ERMapper, Petrel, ArcGIS, IDL, ENVI, MASTER, CRISM, Google Earth Engine
+- Comfortable in exploiting satellite imagery and various environmental sensor datasets (RADAR, LIDAR, Spectral) for identification of soil, water, greenery, etc. image data.
+
+#### General
+- Machine Learning
+  - Familiar and comfortable with using a variety of machine learning and deep-learning algorithms to develop applications for data within and beyond environmental sciences. Experience with regression/classfication and supervised/unsupervised architectures.
+    - Linear, Logistic, Forest, CNNs, Convolutional Autoencoders, GANs, LSTMs, FFNs
+- Advanced Dataset Knowledge
+  - NetCDFs (.nc), Segy Seismic Volumes (.sgy)
+- Skilled presentation and instruction of work, scientific principles to large groups (seminars, client groups) and small.
+- Interdisplinarian scientific programmer, degreed or employed in each of the fields earth, atmospheric, and planetary sciences.
+- 8+ years experience in internet and community-forum browsing for advanced computational and environmental problem solving. 7+ years experience in leveraging Google Scholar to further research.
+- Passion for strengthening team interpersonal development and morale
+- Basic German language skills and actively learning American Sign Language
+
+
+<ins>Environmental advocate, park enthusiast, aging amateur athlete, hiker, fisher, birder, Durham music-goer, and community servant. </ins>
