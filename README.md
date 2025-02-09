@@ -1,5 +1,6 @@
 # Welcome employers, environmental data enthusiasts!
 
+<a id=Contact></a>
 ### Contact:
  - **E-mail:** [jahbrunton@gmail.com](jahbrunton@gmail.com)
  - **Phone:** Inquire/Please Refer to Application
@@ -123,11 +124,60 @@ A series of sprint-esque, multi-week projects in which 4-7 inter-academic course
 *Proposed Solution:* Given the limited amount of data, leverage scientific principles to create new data features from the existing set. The cleaned, manipulated, and integrated dataset is sent to a multi-class model for flood probability. Each of the ten classes outputted by the model is the last input needed for a K-Nearest Neighbors regressor that predicts the corresponding damage cost. Screenshots of results from the classification model are shown in color, with damage cost in greyscale.
 
 ![Figure 10](./images/Floods_Colored.png)
-![Figure 11](./images/Floods_Greyscale.png)
+![Figure 11](./images/Flood_Greyscale.png)
 
 *Project Roles:* Lead developer of KNN regressor, lead data preprocessing developer, dataset feature creation, documentation and code sustainability maintainer, lead presenter
 
 <a id=Skills></a>
 ## IV. Skills in Data and Geoscience
+
+### Programming Languages
+- Python:
+  - **Expert** Numerical processing and applications, data visualization libraries
+     - Numpy, Pandas, Scipy, Matplotlib (Pyplot), Plotly, Seaborn
+  - **Fluent** Sci-Kit Learn; basic-to-intermediate machine learning applications
+  - **Advanced** Deep-learning libraries
+     - Pytorch, Keras (Tensorflow), OpenCV
+  - **Advanced** Sphinx, Sphinx-Design; for automated HTML deployment of repository code and text (markdown, restructured-text) documentation
+  - **Advanced** PyTest, for automated and customized code testing
+  - **Experienced** Specialized libraries for the environmental data manipulation
+     - Geopandas, Xarray, NetCDF4, Segyio, GDAL, Shapely, Rasterio
+- **Familiar** Trained academically, practiced in research/employment occasionally
+  - R (RStudio), C++
+- **Experienced/Practicing**
+  - SQL, primarily through Python's interfacing library mySQL
+
+### Programming Environments
+- Github (**Experienced**):
+  - git, Github CLI
+  - Github Actions for basic continuous integration practices and automated documentation creation
+  - Github Pages for hosting documentation websites directly from repository
+  - Contributor to the [Community Multiscale Air Quality (CMAQ) model repository](https://github.com/USEPA/CMAQ), familiar with integration and repository maintaining best-practices.
+- Jupyter Lab preferred for Python and general software development, familiar with VisualStudio
+- Proficient with command-line programming and shell scripting, and ensuring sustainability across operating systems
+  - MacOS, Windows, Linux; Bash, C-Shell
+- Comfortable in virtual and High-Performance Computing environments
+  - Most experienced in private, familiar with AWS ecosystem
+
+### Remote Sensing
+- General Software/Geographic Information Systems (GIS) Experience
+  - ERMapper, Petrel, ArcGIS, IDL, ENVI, MASTER, CRISM, Google Earth Engine
+- Comfortable in exploiting satellite imagery and various environmental sensor datasets (RADAR, LIDAR, Spectral) for identification of soil, water, greenery, etc. image data.
+
+#### General
+- Machine Learning
+  - Familiar and comfortable with using a variety of machine learning and deep-learning algorithms to develop applications for data within and beyond environmental sciences. Experience with regression/classfication and supervised/unsupervised architectures.
+    - Linear, Logistic, Forest, CNNs, Convolutional Autoencoders, GANs, LSTMs, FFNs
+- Advanced Dataset Knowledge
+  - NetCDFs (.nc), Segy Seismic Volumes (.sgy)
+- Skilled presentation and instruction of work, scientific principles to large groups (seminars, client groups) and small.
+- Interdisplinarian scientific programmer, degreed or employed in each of the fields earth, atmospheric, and planetary sciences.
+- 8+ years experience in internet and community-forum browsing for advanced computational and environmental problem solving. 7+ years experience in leveraging Google Scholar to further research.
+- Passion for strengthening team interpersonal development and morale
+
+
+
+
 <a id=References></a>
 ## V. References
+Inquire for references, see [Contact](#Contact)
