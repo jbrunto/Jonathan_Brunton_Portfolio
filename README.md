@@ -74,7 +74,7 @@ The clustering model was optimized using a numerical interpretation of the 'Elbo
 ### Screening Tool (Proposed Workflow)
 As briefly aforementioned, this is a novel approach in combining the information from a predicted fault volume with FWI velocity data into a single, interpretable volume. This provides an initial assessment to whether an extracted fault system can store fluid, by highlighting low- or high-velocity anomalies within the image of the system. The relative velocities of some predicted fault locations are shown in the colored image below, while the coherency volume it was derived from is shown in greyscale.
 
-![Figure 4](./images/Big_Slice_Colored.png)
+![Figure 4](./images/Big_Slice_FWI.png)
 ![Figure 5](./images/Big_Slice_Greyscale.png)
 
 A major advantage of using a binary mask for predicted fault locations is uncovering the relative velocities from both within and outside of the faults, shown below on left. In addition to the data preprocessing, model training, and prediction workflow contained inside a jupyter notebook, a 3D visualization of the volume's predicted faults/velocities was developed for completing the automation of the manual interpretation of these seismic volumes.
@@ -113,7 +113,7 @@ A series of sprint-esque, multi-week projects in which 4-7 inter-academic course
 *Proposed Solution:* Principal Components Analysis (PCA) addressed issues of compressing and coupling the data, while an ensemble convolutional autoencoder-random forest regressor predicted wildfire image evolution in physical space. A Kalman filter was developed for the latent space of the autoencoder, correcting predictions in real-time. The images below show a comparison of the wildfire sensor ground truths and model predictions.
 
 ![Figure 8](./images/Wildfire_GTs.png)
-![Figure 9](.images/Wildfire_Preds.png)
+![Figure 9](./images/Wildfire_Preds.png)
 
 *Project Roles:* Lead PCA developer, co-developer of data assimilation workflow (filter tuning), Python project suite testing, lead presenter
 
