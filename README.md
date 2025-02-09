@@ -23,8 +23,11 @@ In addition to this portfolio, my additional public repositories include:
 
 ### Current Employment
 October 2023-Present
+
 Atmospheric Data Scientist
+
 Model Evaluation/Outreach with the Community Multiscale Air Quality Model (CMAQ) Model Development Team
+
 Environmental Protection Agency & Oak Ridge Associated Universities (National Student Serviced Contract)
 
 ### Education
@@ -40,8 +43,11 @@ Imperial College London / London, England
 
 August 2017-May 2021
 BS Planetary Sciences
+
 Purdue University / West Lafayette, IN
+
 *Notable Awards:* Presidential Scholarship, Paul & Linda Krishna Scholarship in Earth, Atmospheric, and Planetary Sciences, 6x Dean's List Placement, 6x Semester's Honors
+
 **Course Details:** [BS Planetary Sciences](https://www.eaps.purdue.edu/for_students/undergraduate/planetary/index.html)
 
 <a id=Thesis></a>
