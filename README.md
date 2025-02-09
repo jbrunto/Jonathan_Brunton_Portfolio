@@ -46,7 +46,7 @@ Imperial College London / London, England
 
 **Course Details:** [MSc EDSML](https://www.imperial.ac.uk/study/courses/postgraduate-taught/environmental-data-science-machine-learning/)
 
-
+*Extracurricular Activities:* Imperial College Union, Player/Coach for American Football Club
 
 August 2017-May 2021
 
@@ -57,6 +57,8 @@ Purdue University / West Lafayette, IN
 *Notable Awards:* Presidential Scholarship, Paul & Linda Krishna Scholarship in Earth, Atmospheric, and Planetary Sciences, 6x Dean's List Placement, 6x Semester's Honors
 
 **Course Details:** [BS Planetary Sciences](https://www.eaps.purdue.edu/for_students/undergraduate/planetary/index.html)
+
+*Extracurricular Activities:* Undergraduate Teaching Assistant (EAPS 102: Earth Science for Elementary Teachers), College of Science Ambassador, Gimlet Leadership Honorary (Secretary), Planetary Science Society of Purdue, Purdue Astronomy Club, Wesley Foundation Service
 
 <a id=Thesis></a>
 ## II. Thesis Project
