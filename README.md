@@ -129,7 +129,9 @@ A series of sprint-esque, multi-week projects in which 4-7 inter-academic course
 
 *Proposed Solution:* Given the limited amount of data, leverage scientific principles to create new data features from the existing set. The cleaned, manipulated, and integrated dataset is sent to a multi-class model for flood probability. Each of the ten classes outputted by the model is the last input needed for a K-Nearest Neighbors regressor that predicts the corresponding damage cost. Screenshots of results from the classification model are shown in color, with damage cost in greyscale.
 
+**Ground Truths**
 ![Figure 10](./images/Floods_Colored.png)
+**Final Predictions**
 ![Figure 11](./images/Flood_Greyscale.png)
 
 *Project Roles:* Lead developer of KNN regressor, lead data preprocessing developer, dataset feature creation, documentation and code sustainability maintainer, lead presenter
