@@ -9,15 +9,17 @@ Model Evaluation/Outreach with the Community Multiscale Air Quality Model (CMAQ)
 
 Environmental Protection Agency & Oak Ridge Associated Universities (National Student Services Contract)
 
+Speaker at CMAS Conference 2024 - *['Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'](https://cmascenter.org/conference/2024/agenda.cfm)*
+
 ### Part-time Experiences
--**Substitute Teacher**, Scoot Education
-  -Austin, TX / Nov. 2022 - April 2023
--**Python Tutor**, Self-Employed
-  -Metamora, IL / April 2023 - October 2023
--**Undergradate Research Assistant**, Purdue University Department of Earth, Atmospheric, and Planetary Sciences
-  -West Lafayette, IN / May-Dec. 2019, May 2020-2021
--**Undergraduate Teaching Assistant**, Purdue University Department of Earth, Atmospheric, and Planetary Sciences
-  -West Lafayette, IN / Aug.-Dec. 2020 / *EAPS 102: Earth Science for Elementary Teachers*
+- **Substitute Teacher**, Scoot Education
+  - Austin, TX / Nov. 2022 - April 2023
+- **Python Tutor**, Self-Employed
+  - Metamora, IL / April 2023 - October 2023
+- **Undergradate Research Assistant**, Purdue University Department of Earth, Atmospheric, and Planetary Sciences
+  - West Lafayette, IN / May-Dec. 2019, May 2020-2021 
+- **Undergraduate Teaching Assistant**, Purdue University Department of Earth, Atmospheric, and Planetary Sciences
+  - West Lafayette, IN / Aug.-Dec. 2020 / *EAPS 102: Earth Science for Elementary Teachers*
 
 ## Education
 October 2021-November 2022
@@ -74,17 +76,19 @@ Purdue University / West Lafayette, IN
 - Comfortable in virtual and High-Performance Computing environments
   - Most experienced in private, familiar with AWS ecosystem
 
-### Remote Sensing
+### Remote Sensing/Environmental Data
 - General Software/Geographic Information Systems (GIS) Experience
   - ERMapper, Petrel, ArcGIS, IDL, ENVI, MASTER, CRISM, Google Earth Engine
 - Comfortable in exploiting satellite imagery and various environmental sensor datasets (RADAR, LIDAR, Spectral) for identification of soil, water, greenery, etc. image data.
+- Advanced Model Output Experience
+  - EPA's Community Multiscale Air Quality (CMAQ) Model, NCAR's Weather Research & Forecasting (WRF) Model for air quality and meteorology evaluation, respectively.
+- Advanced Dataset Knowledge
+  - NetCDFs (.nc), Segy Seismic Volumes (.sgy)
 
 #### General
 - Machine Learning
   - Familiar and comfortable with using a variety of machine learning and deep-learning algorithms to develop applications for data within and beyond environmental sciences. Experience with regression/classfication and supervised/unsupervised architectures.
     - Linear, Logistic, Forest, CNNs, Convolutional Autoencoders, GANs, LSTMs, FFNs
-- Advanced Dataset Knowledge
-  - NetCDFs (.nc), Segy Seismic Volumes (.sgy)
 - Skilled presentation and instruction of work, scientific principles to large groups (seminars, client groups) and small.
 - Interdisplinarian scientific programmer, degreed or employed in each of the fields earth, atmospheric, and planetary sciences.
 - 8+ years experience in internet and community-forum browsing for advanced computational and environmental problem solving. 7+ years experience in leveraging Google Scholar to further research.
@@ -92,4 +96,4 @@ Purdue University / West Lafayette, IN
 - Basic German language skills and actively learning American Sign Language
 
 
-<ins>Environmental advocate, park enthusiast, aging amateur athlete, hiker, fisher, birder, Durham music-goer, and community servant. </ins>
+<ins>Environmental advocate, park enthusiast, aging amateur athlete, fisher, birder, Durham music-goer, and community servant. </ins>

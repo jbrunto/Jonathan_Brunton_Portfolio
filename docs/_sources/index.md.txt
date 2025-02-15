@@ -1,0 +1,88 @@
+# <p style="text-align:center;">Jonathan Brunton, MSc</p>
+<img src="_static/jon.jpg" 
+        alt="Portrait" 
+        style="display: block; margin: 0 auto" />
+## *<p style="text-align:center;">Budding Environmental Data Scientist & Machine Learner</p>*
+## *<p style="text-align:center;">5+ years in Pythonic Geospatial Research & Development, 1.5+ professionally</p>*
+
+### Welcome potential employers and environmental data enthusiasts!
+
+For clean-cut .pdfs of my resume and portfolio, as well as contact details, please visit [Supporting Materials](./contact.md)
+
+
+::::{grid} 2
+:gutter: 2
+
+:::{grid-item-card} Computer Vision for Subsurface Fluid Storage Evaluation
+:text-align: center
+:img-top: _static/capstone.png
+:class-img-top: w-50 m-auto py-4 dark-light
+:shadow: lg
+
+Master's capstone project - a machine learning application derived from seismic reflectivity and Full-Waveform Inversion data.
+
++++
+
+```{button-link} capstone.html
+:color: primary
+:shadow:
+Capstone
+```
+
+:::
+
+:::{grid-item-card} Minor Environmental Data Projects
+:text-align: center
+:img-top: _static/projs.png
+:class-img-top: w-50 m-auto py-4 dark-light
+:shadow: lg
+
+Wildfires, Hurricanes, Floods, oh my!
+
++++
+
+```{button-link} projects.html
+:color: primary
+:shadow:
+Projects
+```
+
+:::
+
+:::{grid-item-card} Background & Skills
+:margin: auto
+:text-align: center
+:img-top: _static/background.png
+:class-img-top: w-50 m-auto py-4 dark-light
+:shadow: lg
+
+Professional experiences, education, and levels of expertise regarding skills in data and geoscience.
+
++++
+
+```{button-link} background.html
+:color: primary
+:shadow:
+Background
+```
+
+:::
+
+::::
+
+
+:::{note}
+    Like this website? Want me to make you one? Contact me at the 'Supporting Materials' link above.
+:::
+
+
+
+```{toctree}
+:name: Portfolio Contents
+:maxdepth: 1
+:hidden:
+Thesis <./capstone.md>
+Projects <./projects.md>
+Background <./background.md>
+Contact <./contact.md>
+```

@@ -13,7 +13,7 @@ In addition to this portfolio, my additional public repositories include:
 
 *Additional Directories*
 - images/ : images to be displayed
-- docs/ : host space for my website's HTML documentation, yet another version of this portfolio
+- docs/ : host space for my website's, yet another version of this portfolio, HTML documentation
 
 #### Sections
   - [I. Introduction](#Introduction)
@@ -68,7 +68,7 @@ Purdue University / West Lafayette, IN
 - Developing an unsupervised image clustering model to predict the locations of faults within the volume
 - Combining and using the predicted volume with velocity data to create a 3D visualization tool and assess predicted fault's ability to store fluid.
 
-### ML Model Development - K-Means Clustering
+### Machine Learning Model Development
 Initial steps were taken to clean and transform raw seimic reflectivity image data into a numerically derived coherency volume using 3D interpretation. 2D, 'stackable' images of these transformations were sent to be trained on a K-Means clustering model, which was developed to highlight large, 3D discontinuities within the volume. Only data with viable intra-cluster intertia values were selected for the final predicted fault locations. This process is shown below, left-to-right.
 
 ![Figure 1](./images/2D_Transformations.png)
@@ -167,19 +167,17 @@ A series of sprint-esque, multi-week projects in which 4-7 inter-academic course
 - Comfortable in virtual and High-Performance Computing environments
   - Most experienced in private, familiar with AWS ecosystem
 
-### Remote Sensing/Environmental Data
+### Remote Sensing
 - General Software/Geographic Information Systems (GIS) Experience
   - ERMapper, Petrel, ArcGIS, IDL, ENVI, MASTER, CRISM, Google Earth Engine
 - Comfortable in exploiting satellite imagery and various environmental sensor datasets (RADAR, LIDAR, Spectral) for identification of soil, water, greenery, etc. image data.
-- Advanced Model Output Experience
-  - EPA's Community Multiscale Air Quality (CMAQ) Model, NCAR's Weather Research & Forecasting (WRF) Model for air quality and meteorology evaluation, respectively.
-- Advanced Dataset Knowledge
-  - NetCDFs (.nc), Segy Seismic Volumes (.sgy)
 
 #### General
 - Machine Learning
   - Familiar and comfortable with using a variety of machine learning and deep-learning algorithms to develop applications for data within and beyond environmental sciences. Experience with regression/classfication and supervised/unsupervised architectures.
     - Linear, Logistic, Forest, CNNs, Convolutional Autoencoders, GANs, LSTMs, FFNs
+- Advanced Dataset Knowledge
+  - NetCDFs (.nc), Segy Seismic Volumes (.sgy)
 - Skilled presentation and instruction of work, scientific principles to large groups (seminars, client groups) and small.
 - Interdisplinarian scientific programmer, degreed or employed in each of the fields earth, atmospheric, and planetary sciences.
 - 8+ years experience in internet and community-forum browsing for advanced computational and environmental problem solving. 7+ years experience in leveraging Google Scholar to further research.
