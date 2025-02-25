@@ -35,6 +35,8 @@ Model Evaluation/Outreach with the Community Multiscale Air Quality Model (CMAQ)
 
 Environmental Protection Agency & Oak Ridge Associated Universities (National Student Serviced Contract)
 
+Speaker at CMAS Conference 2024 - *['Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'](https://cmascenter.org/conference/2024/agenda.cfm)*
+
 ### Education
 October 2021-November 2022
 
