@@ -6,10 +6,10 @@
  - **Phone:** Inquire/Please Refer to Application
 
 ### Portfolio Guide:
-For simplicity, this document does serve as a working version of the my project portfolio, but a clean .pdf version can also be found within the [Supporting Materials](./Supporting_Materials/). 
+For simplicity, this document does serve as a working version of the my project portfolio, but my [Portfolio website](https://jbrunto.github.io/Jonathan_Brunton_Portfolio/) contains the same info, and a clean .pdf version can also be found within the [Supporting Materials](./Supporting_Materials/). 
 In addition to this portfolio, my additional public repositories include:
   - A sandbox environment for the development and deployment of CMAQ's Public Documentation: [CMAQ_Docs_v55](https://github.com/jbrunto/CMAQ_Docs_v55), with a working [web version](https://jbrunto.github.io/CMAQ_Docs_v55/) hosted within the Github Actions.
-  - A dead version of my Master's [Capstone Project](https://github.com/jbrunto/Seismic_Machine_Learning), which is described in short [Below](#Thesis).
+  - A dead version of my Master's [Capstone Project](https://github.com/jbrunto/Seismic_Machine_Learning), 'Developing Screening Tools to Assess CO2 Storage', which is described in short [Below](#Thesis).
 
 *Additional Directories*
 - images/ : images to be displayed
