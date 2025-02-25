@@ -16,15 +16,15 @@ In addition to this portfolio, my additional public repositories include:
 - docs/ : host space for my website's HTML documentation, yet another version of this portfolio
 
 #### Sections
-  - [I. Introduction](#Introduction)
+  - [I. Background](#Background)
   - [II. Master's Thesis Project](#Thesis)
   - [III. Major Environmental Data Projects](#Projects)
   - [IV. Interdisciplinary Skills](#Skills)
   - [V. Professional and Personal References](#References)
 
 
-<a id=Introduction></a>
-## I. Introduction
+<a id=Background></a>
+## I. Background
 
 ### Current Employment
 October 2023-Present
