@@ -26,8 +26,8 @@ In addition to this portfolio, my additional public repositories include:
 <a id=Employment></a>
 ## I. Atmospheric Data Scientist
 **Oak Ridge Associated Universities NSSC**
-**U.S. Environmental Protection Agency, ORD-CEMM-AESMD**
-*October 2023-Pres. - Research Triangle Park, NC*
+**\nU.S. Environmental Protection Agency, ORD-CEMM-AESMD**
+*\nOctober 2023-Pres. - Research Triangle Park, NC*
 
 ### Primary Duties
  - Perform model evaluation for the EPA’s Community Multiscale Air Quality (CMAQ) scientific development team by investigating the impact of gridded inputs on CMAQ Ozone outputs with historical data. Analyze and package results visually and in writing to project leadership to deliver to State and Local organizations attempting to reach ozone attainment.
