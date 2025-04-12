@@ -6,25 +6,53 @@
  - **Phone:** Inquire/Please Refer to Application
 
 ### Portfolio Guide:
-For simplicity, this document does serve as a working version of the my project portfolio, but a clean .pdf version can also be found within the [Supporting Materials](./Supporting_Materials/). 
+For simplicity, this document does serve as a working version of the my project portfolio, but my [Portfolio website](https://jbrunto.github.io/Jonathan_Brunton_Portfolio/) contains the same info, and a clean .pdf version can also be found within the [Supporting Materials](./Supporting_Materials/). 
 In addition to this portfolio, my additional public repositories include:
   - A sandbox environment for the development and deployment of CMAQ's Public Documentation: [CMAQ_Docs_v55](https://github.com/jbrunto/CMAQ_Docs_v55), with a working [web version](https://jbrunto.github.io/CMAQ_Docs_v55/) hosted within the Github Actions.
-  - A dead version of my Master's [Capstone Project](https://github.com/jbrunto/Seismic_Machine_Learning), which is described in short [Below](#Thesis).
+  - A dead version of my Master's [Capstone Project](https://github.com/jbrunto/Seismic_Machine_Learning), 'Developing Screening Tools to Assess CO2 Storage', which is described in short [Below](#Thesis).
 
 *Additional Directories*
 - images/ : images to be displayed
 - docs/ : host space for my website's HTML documentation, yet another version of this portfolio
 
 #### Sections
-  - [I. Introduction](#Introduction)
-  - [II. Master's Thesis Project](#Thesis)
-  - [III. Major Environmental Data Projects](#Projects)
-  - [IV. Interdisciplinary Skills](#Skills)
-  - [V. Professional and Personal References](#References)
+  - [I. Atmospheric Data Scientist](#Employment)
+  - [II. Background](#Background)
+  - [III. Master's Thesis Project](#Thesis)
+  - [IV. Major Environmental Data Projects](#Projects)
+  - [V. Interdisciplinary Skills](#Skills)
+  - [VI. Professional and Personal References](#References)
+
+<a id=Employment></a>
+## I. Atmospheric Data Scientist
+
+**Oak Ridge Associated Universities NSSC**
+
+**U.S. Environmental Protection Agency, ORD-CEMM-AESMD**
+
+*October 2023-Pres. - Research Triangle Park, NC*
+
+### Primary Duties
+ - Perform model evaluation for the EPA’s Community Multiscale Air Quality (CMAQ) scientific development team by investigating the impact of gridded inputs on CMAQ Ozone outputs with historical data. Analyze and package results visually and in writing to project leadership to deliver to State and Local organizations attempting to reach ozone attainment.
+    - “Evaluating the impact of modeled meteorology and ozone bias using Random Forest Regression”
+	- Lead-developer of a Python-based workflow that provides a spatiotemporal analysis of the relationship between trends in modeled (NCAR’s Weather Research & Forecasting Model; WRF) meteorology and modeled (EPA’s Air Quality Time Series; EQUATES) ozone bias.
+	- Perform big data wrangling, preprocessing of twenty model years of data in a High-Performance Computing environment; leveraged EPA’s Atmospheric Model Evaluation Tool (AMET) for WRF data acquisition, QA/QC of scientifically relevant data.
+	- Trained and optimized a Random Forest model suite to perform feature permutation for quantifying the relative importance of meteorological and non-meteorological potential drivers of CMAQ MDA8 Ozone Bias.
+	- Relay results to internal CMAQ development teams, agency groups with CMAQ model interests, and spoke at [CMAS Conference 2024](https://cmascenter.org/conference/2024/agenda.cfm). 
+             - Design investigation within the scope of physical regions in model domain, as well as the administrative regions that govern air quality and emissions.
 
 
-<a id=Introduction></a>
-## I. Introduction
+### Additional Duties
+- Develop public-facing notebook tutorials for analyzing cloud-based CMAQ/EQUATES data hosted on AWS Open Data Registry by reading and compressing the S3 bucket data (>1 TB) into local and SageMaker Jupyter servers.
+- Contributor to CMAQ’s Github through documentation upkeep and Github Actions workflows.
+- Lead developer of multi-language (Python, HTML, Markdown Flavor) workflow for building and deploying CMAQ’s Github Pages hosted [documentation website](https://jbrunto.github.io/CMAQ_Docs_v55/).
+- Active member of internal Center for Environmental Measurement and Modeling’s Data Science development community; led demonstrations and discussion of Pythonic data science and machine learning techniques and software configuration. 
+- Developed an internal tool for directly querying and reading CMAQ’s SQL held data into a Python environment as interactive datasets.
+- Consult generally on adjacent projects exploiting geospatial data with Python/SQL software and machine-learning techniques.
+
+
+<a id=Background></a>
+## II. Background
 
 ### Current Employment
 October 2023-Present
@@ -34,6 +62,8 @@ October 2023-Present
 Model Evaluation/Outreach with the Community Multiscale Air Quality Model (CMAQ) Model Development Team
 
 Environmental Protection Agency & Oak Ridge Associated Universities (National Student Serviced Contract)
+
+Speaker at CMAS Conference 2024 - *['Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'](https://cmascenter.org/conference/2024/agenda.cfm)*
 
 ### Education
 October 2021-November 2022
@@ -61,7 +91,7 @@ Purdue University / West Lafayette, IN
 *Extracurricular Activities:* Undergraduate Teaching Assistant (EAPS 102: Earth Science for Elementary Teachers), College of Science Ambassador, Gimlet Leadership Honorary (Secretary), Planetary Science Society of Purdue, Purdue Astronomy Club, Wesley Foundation Service
 
 <a id=Thesis></a>
-## II. Thesis Project
+## III. Thesis Project
 
 *Motivation:* Traditional workflows for assessing a subsurface region's ability to store fluid require ample manual interpretation and destructive collection processes in addition to advanced seismic modeling. With next-generation velocity data recovered from Full-Waveform Inversion techniques of a subsurface region, we aim to automate the entirety of this workflow for fault systems specifically by:
 - Extracting meaningful data features for a large, raw seismic reflectivity volume by leveraging advanced numerical methods
@@ -101,7 +131,7 @@ If afforded more time, there would have been a few avenues to strengthen the pow
 
 
 <a id=Projects></a>
-## III. Major Master's Projects
+## IV. Major Master's Projects
 A series of sprint-esque, multi-week projects in which 4-7 inter-academic course graduate co-developers develop machine learning applications of environmental datasets, culminating in the 'product release' and presentation to hypothetical clients and interest groups.
 
 ### Hurricane Forecasting with Computer Vision
@@ -137,7 +167,7 @@ A series of sprint-esque, multi-week projects in which 4-7 inter-academic course
 *Project Roles:* Lead developer of KNN regressor, lead data preprocessing developer, dataset feature creation, documentation and code sustainability maintainer, lead presenter
 
 <a id=Skills></a>
-## IV. Skills in Data and Geoscience
+## V. Skills in Data and Geoscience
 
 ### Programming Languages
 - Python:
@@ -193,5 +223,5 @@ Environmental advocate, park enthusiast, aging amateur athlete, hiker, fisher, b
 
 
 <a id=References></a>
-## V. References
+## VI. References
 Inquire for references, see [Contact](#Contact)

@@ -3,7 +3,7 @@
         alt="Portrait" 
         style="display: block; margin: 0 auto" />
 ## *<p style="text-align:center;">Budding Environmental Data Scientist & Machine Learner</p>*
-## *<p style="text-align:center;">5+ years in Pythonic Geospatial Research & Development, 1.5+ professionally</p>*
+## *<p style="text-align:center;">5+ years in Pythonic Geospatial Research & Development</p>*
 
 ### Welcome potential employers and environmental data enthusiasts!
 
