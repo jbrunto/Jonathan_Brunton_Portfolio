@@ -26,26 +26,27 @@ In addition to this portfolio, my additional public repositories include:
 <a id=Employment></a>
 ## I. Atmospheric Data Scientist
 
-**Oak Ridge Associated Universities NSSC**
+October 2023-May 2025.
 
-**U.S. Environmental Protection Agency, ORD-CEMM-AESMD**
+Model Evaluation and Outreach with the Community Multiscale Air Quality Model (CMAQ) Model Development Team
 
-*October 2023-Pres. - Research Triangle Park, NC*
+U.S. Environmental Protection Agency (Office of Research and Development, Center for Environmental Measurement and Modelling) & Oak Ridge Associated Universities (National Student Services Contract)
+
 
 ### Primary Duties
  - Perform model evaluation for the EPA’s Community Multiscale Air Quality (CMAQ) scientific development team by investigating the impact of gridded inputs on CMAQ Ozone outputs with historical data. Analyze and package results visually and in writing to project leadership to deliver to State and Local organizations attempting to reach ozone attainment.
-    - “Evaluating the impact of modeled meteorology and ozone bias using Random Forest Regression”
-	- Lead-developer of a Python-based workflow that provides a spatiotemporal analysis of the relationship between trends in modeled (NCAR’s Weather Research & Forecasting Model; WRF) meteorology and modeled (EPA’s Air Quality Time Series; EQUATES) ozone bias.
+	- Developed workflows providing a spatiotemporal analysis of the relationship between trends in modeled (NCAR’s Weather Research & Forecasting Model; WRF) meteorology and modeled (EPA’s Air Quality Time Series; EQUATES) ozone bias.
 	- Perform big data wrangling, preprocessing of twenty model years of data in a High-Performance Computing environment; leveraged EPA’s Atmospheric Model Evaluation Tool (AMET) for WRF data acquisition, QA/QC of scientifically relevant data.
-	- Trained and optimized a Random Forest model suite to perform feature permutation for quantifying the relative importance of meteorological and non-meteorological potential drivers of CMAQ MDA8 Ozone Bias.
-	- Relay results to internal CMAQ development teams, agency groups with CMAQ model interests, and spoke at [CMAS Conference 2024](https://cmascenter.org/conference/2024/agenda.cfm). 
-             - Design investigation within the scope of physical regions in model domain, as well as the administrative regions that govern air quality and emissions.
-
+	- Trained and optimized a machine learning model suite to perform feature permutation for quantifying the relative importance of meteorological and non-meteorological potential drivers of CMAQ MDA8 Ozone Bias.
+    - Design investigation within the scope of physical regions in model domain, as well as the administrative regions that govern air quality and emissions. Deploy workflow for metropolitan case study usage in projects supporting partner organizations and model user groups.
+    
+ - Speaker at CMAS Conference 2024: *'Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'*
+    - See [This Page](ozone_proj.md) for abstract and presentation slideshow on evaluation results of the base model.
 
 ### Additional Duties
 - Develop public-facing notebook tutorials for analyzing cloud-based CMAQ/EQUATES data hosted on AWS Open Data Registry by reading and compressing the S3 bucket data (>1 TB) into local and SageMaker Jupyter servers.
 - Contributor to CMAQ’s Github through documentation upkeep and Github Actions workflows.
-- Lead developer of multi-language (Python, HTML, Markdown Flavor) workflow for building and deploying CMAQ’s Github Pages hosted [documentation website](https://jbrunto.github.io/CMAQ_Docs_v55/).
+- Lead developer of multi-language (Python, HTML, Markdown Flavor) workflow for building and deploying CMAQ’s Github Pages hosted [documentation website](https://usepa.github.io/CMAQ/).
 - Active member of internal Center for Environmental Measurement and Modeling’s Data Science development community; led demonstrations and discussion of Pythonic data science and machine learning techniques and software configuration. 
 - Developed an internal tool for directly querying and reading CMAQ’s SQL held data into a Python environment as interactive datasets.
 - Consult generally on adjacent projects exploiting geospatial data with Python/SQL software and machine-learning techniques.
@@ -53,17 +54,6 @@ In addition to this portfolio, my additional public repositories include:
 
 <a id=Background></a>
 ## II. Background
-
-### Current Employment
-October 2023-Present
-
-**Atmospheric Data Scientist**
-
-Model Evaluation/Outreach with the Community Multiscale Air Quality Model (CMAQ) Model Development Team
-
-Environmental Protection Agency & Oak Ridge Associated Universities (National Student Serviced Contract)
-
-Speaker at CMAS Conference 2024 - *['Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'](https://cmascenter.org/conference/2024/agenda.cfm)*
 
 ### Education
 October 2021-November 2022
