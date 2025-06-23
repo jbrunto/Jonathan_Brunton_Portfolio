@@ -1,31 +1,30 @@
 # Background in Earth, Atmospheric, Planetary, & Data Sciences.
 
 ## Professional Experience
-October 2023-Present
 
 **Atmospheric Data Scientist**
 
-October 2023-Pres.
+October 2023-May 2025.
 
-Model Evaluation/Outreach with the Community Multiscale Air Quality Model (CMAQ) Model Development Team
+Model Evaluation and Outreach with the Community Multiscale Air Quality Model (CMAQ) Model Development Team
 
-U.S. Environmental Protection Agency & Oak Ridge Associated Universities (National Student Services Contract)
+U.S. Environmental Protection Agency (Office of Research and Development, Center for Environmental Measurement and Modelling) & Oak Ridge Associated Universities (National Student Services Contract)
 
-Speaker at CMAS Conference 2024 - *['Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'](https://cmascenter.org/conference/2024/agenda.cfm)*
 
 ### Primary Duties
  - Perform model evaluation for the EPA’s Community Multiscale Air Quality (CMAQ) scientific development team by investigating the impact of gridded inputs on CMAQ Ozone outputs with historical data. Analyze and package results visually and in writing to project leadership to deliver to State and Local organizations attempting to reach ozone attainment.
-    - “Evaluating the impact of modeled meteorology and ozone bias using Random Forest Regression”
-	- Lead-developer of a Python-based workflow that provides a spatiotemporal analysis of the relationship between trends in modeled (NCAR’s Weather Research & Forecasting Model; WRF) meteorology and modeled (EPA’s Air Quality Time Series; EQUATES) ozone bias.
+	- Developed workflows providing a spatiotemporal analysis of the relationship between trends in modeled (NCAR’s Weather Research & Forecasting Model; WRF) meteorology and modeled (EPA’s Air Quality Time Series; EQUATES) ozone bias.
 	- Perform big data wrangling, preprocessing of twenty model years of data in a High-Performance Computing environment; leveraged EPA’s Atmospheric Model Evaluation Tool (AMET) for WRF data acquisition, QA/QC of scientifically relevant data.
-	- Trained and optimized a Random Forest model suite to perform feature permutation for quantifying the relative importance of meteorological and non-meteorological potential drivers of CMAQ MDA8 Ozone Bias.
-    - Design investigation within the scope of physical regions in model domain, as well as the administrative regions that govern air quality and emissions.
-
+	- Trained and optimized a machine learning model suite to perform feature permutation for quantifying the relative importance of meteorological and non-meteorological potential drivers of CMAQ MDA8 Ozone Bias.
+    - Design investigation within the scope of physical regions in model domain, as well as the administrative regions that govern air quality and emissions. Deploy workflow for metropolitan case study usage in projects supporting partner organizations and model user groups.
+    
+ - Speaker at CMAS Conference 2024: *'Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'*
+    - See [This Page](ozone_proj.md) for abstract and presentation slideshow on evaluation results of the base model.
 
 ### Additional Duties
 - Develop public-facing notebook tutorials for analyzing cloud-based CMAQ/EQUATES data hosted on AWS Open Data Registry by reading and compressing the S3 bucket data (>1 TB) into local and SageMaker Jupyter servers.
 - Contributor to CMAQ’s Github through documentation upkeep and Github Actions workflows.
-- Lead developer of multi-language (Python, HTML, Markdown Flavor) workflow for building and deploying CMAQ’s Github Pages hosted [documentation website](https://jbrunto.github.io/CMAQ_Docs_v55/).
+- Lead developer of multi-language (Python, HTML, Markdown Flavor) workflow for building and deploying CMAQ’s Github Pages hosted [documentation website](https://usepa.github.io/CMAQ/).
 - Active member of internal Center for Environmental Measurement and Modeling’s Data Science development community; led demonstrations and discussion of Pythonic data science and machine learning techniques and software configuration. 
 - Developed an internal tool for directly querying and reading CMAQ’s SQL held data into a Python environment as interactive datasets.
 - Consult generally on adjacent projects exploiting geospatial data with Python/SQL software and machine-learning techniques.
@@ -93,26 +92,21 @@ Purdue University / West Lafayette, IN
 - Proficient with command-line programming and shell scripting, and ensuring sustainability across operating systems
   - MacOS, Windows, Linux; Bash, C-Shell
 - Comfortable in virtual and High-Performance Computing environments
-  - Most experienced in private, familiar with AWS ecosystem
+  - Proficient scripting within or writing scripts to interact with cloud-based computing
 
 ### Remote Sensing/Environmental Data
 - General Software/Geographic Information Systems (GIS) Experience
   - ERMapper, Petrel, ArcGIS, IDL, ENVI, MASTER, CRISM, Google Earth Engine
 - Comfortable in exploiting satellite imagery and various environmental sensor datasets (RADAR, LIDAR, Spectral) for identification of soil, water, greenery, etc. image data.
 - Advanced Model Output Experience
-  - EPA's Community Multiscale Air Quality (CMAQ) Model, NCAR's Weather Research & Forecasting (WRF) Model for air quality and meteorology evaluation, respectively.
+  - EPA's Community Multiscale Air Quality (CMAQ) Model
+  - NWP:
+      - NCAR's Weather Research & Forecasting (WRF) Model for air quality and meteorology evaluation, respectively.
 - Advanced Dataset Knowledge
-  - NetCDFs (.nc), Segy Seismic Volumes (.sgy)
+  - NetCDF-4, h5NetCDF, Zarray (.nc, .zarr), Segy Seismic Volumes (.sgy)
 
-#### General
-- Machine Learning
-  - Familiar and comfortable with using a variety of machine learning and deep-learning algorithms to develop applications for data within and beyond environmental sciences. Experience with regression/classfication and supervised/unsupervised architectures.
-    - Linear, Logistic, Forest, CNNs, Convolutional Autoencoders, GANs, LSTMs, FFNs
-- Skilled presentation and instruction of work, scientific principles to large groups (seminars, client groups) and small.
-- Interdisplinarian scientific programmer, degreed or employed in each of the fields earth, atmospheric, and planetary sciences.
-- 8+ years experience in internet and community-forum browsing for advanced computational and environmental problem solving. 7+ years experience in leveraging Google Scholar to further research.
-- Passion for strengthening team interpersonal development and morale
-- Basic German language skills and actively learning American Sign Language
+#### Machine Learning
+- Familiar and comfortable with using a variety of machine learning and deep-learning algorithms to develop applications for data within and beyond environmental sciences. Experience with regression/classfication and supervised/unsupervised architectures.
+    - Linear, Logistic, Forest, CNNs, Convolutional Autoencoders, GANs, LSTMs, FFNs, Custom Architectures
+- Experienced with developing clustering and computer vision models for seismic, satellite, and general imagery data. ([See Capstone Project](./capstone.md))
 
-
-<ins>Environmental advocate, park enthusiast, aging amateur athlete, fisher, birder, Durham music-goer, and community servant. </ins>

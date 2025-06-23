@@ -1,4 +1,4 @@
-# Major Master's Projects in Computational and Applied Data Science
+# Major Projects in Computational and Applied Data Science
 A series of sprint-esque, multi-week projects in which 4-7 inter-academic course graduate co-developers develop machine learning applications of environmental datasets, culminating in the 'product release' and presentation to hypothetical clients and interest groups.
 
 ## Hurricane Forecasting with Computer Vision

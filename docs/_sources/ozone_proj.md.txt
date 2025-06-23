@@ -1,0 +1,14 @@
+# 'Evaluating The Relationship of Modeled Meteorology and Ozone Bias using Random Forest Regression'
+
+
+## Abstract
+
+Jonathan Brunton
+
+Christian Hogrefe, K. Wyat Appel, Robert Gilliam, Fahim Sidi, Kristen Foley
+
+Meteorology and air quality modeling data from the EPA's Air QUAlity TimE Series Project (EQUATES), spanning 2002-2019, was used for diagnostic evaluation of bias in modeled summertime ozone. Using paired modeled-observed data from the Weather Research and Forecasting (WRF) model and paired modeled-observed MDA8 O3 contiguous U.S., we conduct an exploratory statistical analysis of the impact of model bias in temperature, mixing ratio, windspeed, and precipitation on top ten modeled MDA8 O3 bias and its trends based on meteorological and spatiotemporal variables. The spatiotemporal variables (year, month, latitude, longitude, elevation) are used to represent drivers of ozone bias not explicitly included in the statistical model, e.g., seasonal and regional patterns in emissions biases. An individual RF Regressor model was trained for each NOAA climate region in the EQUATES CMAQ domain, to optimize the model for regional characteristics. The RF models allow for exploration of complex relationships between the ozone bias and multiple model variables, or features. A Feature Importance analysis identifies regions where bias in meteorological variables had a comparable impact on MDA8 O3 bias as the non-meteorological features. Partial Dependence analysis shows whether the relationship between the ozone bias and the meteorological, spatial, and temporal features are linear, monotonic, or more complex. This workflow and RF model allow for future studies of the same nature involving additional CMAQ model inputs, such as emissions or additional meteorological data.
+
+## Presentation Slides
+
+[Click here to download powerpoint slides](./_static/ozone_proj.pptx)
