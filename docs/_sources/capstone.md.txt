@@ -8,22 +8,22 @@
 ## ML Model Development - K-means Clustering
 Initial steps were taken to clean and transform raw seimic reflectivity image data into a numerically derived coherency volume using 3D interpretation. 2D, 'stackable' images of these transformations were sent to be trained on a K-Means clustering model, which was developed to highlight large, 3D discontinuities within the volume. Only data with viable intra-cluster intertia values were selected for the final predicted fault locations. This process is shown below, left-to-right.
 
-![Figure 1](./_static/images/2D_Transformations.png)
+![Figure 1](../../images/2D_Transformations.png)
 
 The clustering model was optimized using a numerical interpretation of the 'Elbow Method', with both average sum of squared distances (SSD) and explained variance as evaluation metrics. Shown below is the numerical interpretation that found the optimal number of image clusters for segmentation in this study, with SSD as an evaluator. Additionally, another elbow graph, with SSD as an evaluator, shows that the fitted trends of the training and testing sets is nearly identical, validating the results of the model from model bias or overfitting.
 
-![Figure 2](./_static/images/Elbow_Numerical.png)
-![Figure 3](./_static/images/Elbow_Verification.png)
+![Figure 2](../../images/Elbow_Numerical.png)
+![Figure 3](../../images/Elbow_Verification.png)
 
 ## Screening Tool (Proposed Workflow)
 As briefly aforementioned, this is a novel approach in combining the information from a predicted fault volume with FWI velocity data into a single, interpretable volume. This provides an initial assessment to whether an extracted fault system can store fluid, by highlighting low- or high-velocity anomalies within the image of the system. The relative velocities of some predicted fault locations are shown in the colored image below, while the coherency volume it was derived from is shown in greyscale.
 
-![Figure 4](./_static/images/Big_Slice_FWI.png)
-![Figure 5](./_static/images/Big_Slice_Greyscale.png)
+![Figure 4](../../images/Big_Slice_FWI.png)
+![Figure 5](../../images/Big_Slice_Greyscale.png)
 
 A major advantage of using a binary mask for predicted fault locations is uncovering the relative velocities from both within and outside of the faults, shown below on left. In addition to the data preprocessing, model training, and prediction workflow contained inside a jupyter notebook, a 3D visualization of the volume's predicted faults/velocities was developed for completing the automation of the manual interpretation of these seismic volumes.
 
-![Figure 6](./_static/images/Screening_Tool.png)
+![Figure 6](../../images/Screening_Tool.png)
 
 
 *A brief note on results*
